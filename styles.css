@@ -1,0 +1,47 @@
+body {
+  background: #000211;
+  color: #fff;
+  margin: 0;
+  padding: 10px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 12px 20px;
+  background: #0720fd;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+    background: #ff0000;
+}
+
+#content {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#apod-image {
+  width: 80%;
+  max-width: 600px;
+  border-radius: 12px;
+}
+#apod-title {
+  color: #ffb686;
+}
+
+#apod-desc {
+    max-width: 600px;
+    line-height: 25px;
+}
+
